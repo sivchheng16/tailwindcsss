@@ -7,22 +7,61 @@
     <title>Vite + React</title>
   </head>
   <body>
-    <!-- <div id="root" ></div> -->
-
     <!-- START TEST PROFILE TAG -->
-    <div class="bg-amber-600 items-center flex mx-auto max-w-sm gap-x-4h">
+    <div
+      class="bg-gray-100 hover:bg-gray-300 flex mx-auto max-w-sm gap-x-4h border-1 border-gray-400 p-2 rounded-2xl shadow-2xl w-fit"
+    >
       <img
-        class="size-12 shrink-0"
+        class="size-12 shrink-0 mr-2"
         src="./src/assets/twitter.png"
         alt="twitter"
       />
       <div class="">
-        <h3>KHEANG SIVCHHENG</h3>
-        <p class="bg-amber-700">small operation programing</p>
+        <h3 class="font-bold">KHEANG SIVCHHENG</h3>
+        <p class="text-sm">small operation programing</p>
       </div>
     </div>
     <!-- END START TEST PROFILE TAG -->
 
+    <!-- DARK MODE -->
+    <section class="flex justify-center">
+      <div
+        class="w-70 mt-3 pt-4 pl-4 dark:bg-gray-800 rounded-2xl bg-gray-300 border"
+      >
+        <svg
+          class="w-10 inline-block bg-blue-700 text-gray-900 rounded"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+          />
+        </svg>
+        <div>
+          <h1 class="font-bold dark:text-white my-2">Write upside-down</h1>
+          <p class="text-gray-500 dark:text-gray-400 text-sm">
+            The Zero Gravity pen can be used to write in any orientation,
+            including upside down it even works in outer space.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- check box -->
+    <div class="x">
+      <label><input class="" type="checkbox" />browser defualt</label>
+      <label><input class="accent-pink-400" type="checkbox" />Customized</label>
+
+      <!-- text respone flunly -->
+      <p class="text-[min(10vw,70px)]">Something fluid</p>
+    </div>
+    <div></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

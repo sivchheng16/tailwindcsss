@@ -1,3 +1,6 @@
+@import "../src/them.css";
+/* costomies style  */
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
